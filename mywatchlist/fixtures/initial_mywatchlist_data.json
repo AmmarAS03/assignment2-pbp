@@ -1,0 +1,115 @@
+[
+    {
+        "model": "mywatchlist.mywatchlist",
+        "pk": 1,
+        "fields": {
+            "have_watched" : "Yes",
+            "movie_title" : "Interstellar",
+            "movie_rating": 9,
+            "movie_release" : 2014,
+            "movie_review" : "ok"
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlist",
+        "pk": 2,
+        "fields":{
+            "have_watched" : "Yes",
+            "movie_title" : "Jojo Rabbit",
+            "movie_rating": 8,
+            "movie_release" : 2019,
+            "movie_review" : "sad"
+        }
+    },
+    {   
+        "model": "mywatchlist.mywatchlist",
+        "pk": 3,
+        "fields":{
+            "have_watched" : "Yes",
+            "movie_title" : "Se7en",
+            "movie_rating": 9,
+            "movie_release" : 1995,
+            "movie_review" : "scary"
+        }
+        
+    },
+    {
+        "model": "mywatchlist.mywatchlist",
+        "pk": 4,
+        "fields":{
+            "have_watched" : "No",
+            "movie_title" : "The Green Mile",
+            "movie_rating": 8,
+            "movie_release" : 2019,
+            "movie_review" : "sad"
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlist",
+        "pk" : 5,
+        "fields":{
+            "have_watched" : "Yes",
+            "movie_title" : "Toy Story",
+            "movie_rating": 8,
+            "movie_release" : 1995,
+            "movie_review" : "fun"
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlist",
+        "pk": 6,
+        "fields":{
+            "have_watched": "Yes",
+            "movie_title": "Flipped",
+            "movie_rating": 8,
+            "movie_release": 2010,
+            "movie_review": "cute"
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlist",
+        "pk": 7,
+        "fields":{
+            "have_watched": "Yes",
+            "movie_title": "Kimi no Nawa",
+            "movie_rating": 10,
+            "movie_release": 2016,
+            "movie_review": "cry"
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlist",
+        "pk": 8,
+        "fields":{
+            "have_watched": "No",
+            "movie_title": "The Social Network",
+            "movie_rating": 7,
+            "movie_release": 2010,
+            "movie_review": "amazed"
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlist",
+        "pk": 9,
+        "fields":{
+            "have_watched": "Yes",
+            "movie_title": "The Pursuit of Happiness",
+            "movie_rating": 10,
+            "movie_release": 2006,
+            "movie_review": "powerful"
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlist",
+        "pk": 10,
+        "fields":{
+            "have_watched": "Yes",
+            "movie_title": "Get Out",
+            "movie_rating": 9,
+            "movie_release": 2017,
+            "movie_review": "scary"
+        }
+    }
+
+
+]
