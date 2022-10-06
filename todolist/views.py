@@ -46,7 +46,7 @@ def register(request):
             return redirect('todolist:login')
 
     context = {'form':form}
-    return render(request, 'register.html', context)
+    return render(request, 'reg1ster.html', context)
 
 def login_user(request):
     if request.method == 'POST':
@@ -61,7 +61,7 @@ def login_user(request):
         else:
             messages.info(request, 'Wrong Username or Password!')
     context = {}
-    return render(request, 'login.html', context)
+    return render(request, 'log1n.html', context)
 
 
 def logout_user(request):

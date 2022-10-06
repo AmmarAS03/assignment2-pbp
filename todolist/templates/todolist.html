@@ -1,5 +1,4 @@
 {% extends 'base.html' %}
-
  {% block content %}
  <style>
     h1,h2,h3,b, button, th, td, table {text-align: center;}
@@ -22,27 +21,43 @@
     }
   </style>
 
- <h1>🤡 Todolist 🤡</h1>
+ <h1> Welcome to {{username}}'s Todolist </h1>
 
- <h2>Hello, {{username}} 😘</h2>
- <table>
+  {% for task in todolist %}
+ <div class="card">
+  <div class="card-header">
+    {{task.date}}
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">{{task.title}}</h5>
+    <p class="card-text">{{task.description}}</p>
+  </div>
+</div>
+  {% endfor %}
+
+
+ <!-- <table>
    <tr>
      <th>Date</th>
      <th>Title</th>
      <th>Description</th>
    </tr>
      {% for task in todolist %}
+     
      <tr>
          <td>{{task.date}}</td>
          <td>{{task.title}}</td>
          <td>{{task.description}}</td>
          {% endfor %}
      </tr>
- </table>
+ </table> -->
 <br>
 <h5>Last Login: {{ last_login }}</h5>
-<button><a href="{% url 'todolist:create_task' %}">Create Task</a></button>
-<button><a href="{% url 'todolist:logout' %}">Logout</a></button>
+<ul>
+  <button><a href="{% url 'todolist:create_task' %}">Create Task</a></button>
+  <button><a href="{% url 'todolist:logout' %}">Logout</a></button>
+</ul>
+
 
 {% endblock content %}
 
