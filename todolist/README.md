@@ -14,3 +14,57 @@
     7. in todolist/views.py , Create a new function create_task and in template add a new file create_task.html and in template/todolist , create the create_task button
     8. Go to todolist/urls.py and add the path of the todolist, register, login, logout, and create-task
     9. Pull, Add, Commit, and Push to git to deploy my project to Heroku
+
+ Assignment 5 (6 OCTOBER 2022)
+ 1. What is the difference between Inline, Internal, and External CSS? What are the advantages and disadvantages of each style?
+  a. Internal CSS
+    > The internal CSS code is placed inside the <head> section of the page. Class and ID can be used to refer to CSS code, but will only be active on that page. CSS styles installed with this method will be downloaded every time the page is called, so this will increase the access speed. However, there are cases where using internal stylesheets is useful. One example is to send a page template to someone – since everything can be seen on one page, it's easier to preview. 
+ CSS internal benefits:
+     >Changes only occur on 1 page
+     >Class and ID can be used by internal stylesheet
+>There is no need to upload multiple files because HTML and CSS can be used in the same file.
+Disadvantages of using Internal CSS:
+
+>Increase website access time
+> Changes only occur on one page
+ > not efficient when you want to use the same CSS across multiple files.
+ b. One of the most convenient ways to add CSS to your website is by linking it to an external .CSS file. That way, any changes you make to the CSS file will appear on your website as a whole. External CSS files are usually placed after the <head> section of the page
+ Benefits of external CSS:
+
+The HTML file size is smaller and the structure is neater
+Faster loading speed
+The same CSS file can be used on multiple pages.
+Disadvantages of external CSS:
+
+The page does not appear completely until the CSS file has been called.
+ c. Inline CSS is used for certain HTML tags. The <style> attribute is used to style certain HTML tags. This method is not recommended, because each HTML tag must be styled in its own way. You will find it more difficult to set up your website if you only use inline CSS. However, in some situations inline CSS can be useful. For example, when you don't have access to a CSS file or have to change the style for only one element.
+ 2. Describe the HTML5 tags that you know.
+ <a>	Defines a hyperlink.
+ <body>	Defines the document's body.
+ <br>	Produces a single line break.
+ <button>	Creates a clickable button.
+ <div>	Specifies a division or a section in a document.
+ <form>	Defines an HTML form for user input.
+ <head>	Defines the head portion of the document that contains information about the document such as title.
+<img>	Represents an image.
+<input>	Defines an input control.
+<label>	Defines a label for an <input> control.
+ <style>	Inserts style information (commonly CSS) into the head of a document.
+  <table>	Defines a data table.
+  <title>	Defines a title for the document.
+   3. Describe the types of CSS selectors you know.
+   The CSS element Selector
+The element selector selects HTML elements based on the element name.
+
+   The CSS id Selector
+The id selector uses the id attribute of an HTML element to select a specific element. The id of an element is unique within a page, so the id selector is used to select one unique element! To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+   The CSS class Selector
+The class selector selects HTML elements with a specific class attribute. To select elements with a specific class, write a period (.) character, followed by the class name.
+   The CSS Universal Selector
+The universal selector (*) selects all HTML elements on the page.
+   4. Explain how you would implement the checklist above.
+   1. First I create a new folder static for all the css file
+   2. Look for a template I want online
+   3. Implement it to the template I have
+   Sources : login page : https://codepen.io/vlt_dev/pen/JjvpQNR
+   register page : https://codepen.io/afirulaf/pen/ExgKpJ
